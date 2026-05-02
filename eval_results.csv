@@ -1,0 +1,86 @@
+set,query,expected_confidence,actual_confidence,passed,top_score
+ground_truth,What are the steps for the lockout tagout energy control procedure?,HIGH or PARTIAL,HIGH,True,0.9325
+ground_truth,What training must authorized employees receive for lockout tagout?,HIGH or PARTIAL,HIGH,True,0.8747
+ground_truth,When must lockout tagout annual inspections be performed?,HIGH or PARTIAL,HIGH,True,0.9185
+ground_truth,What is the difference between lockout and tagout?,HIGH or PARTIAL,HIGH,True,0.7973
+ground_truth,Who qualifies as an authorized employee under OSHA 1910.147?,HIGH or PARTIAL,PARTIAL,True,0.729
+ground_truth,What must the energy control procedure documentation include?,HIGH or PARTIAL,HIGH,True,0.856
+ground_truth,When can tagout be used instead of lockout?,HIGH or PARTIAL,HIGH,True,0.8445
+ground_truth,What must workers verify after applying lockout tagout devices?,HIGH or PARTIAL,HIGH,True,0.8841
+ground_truth,What must be done with stored energy after lockout tagout is applied?,HIGH or PARTIAL,HIGH,True,0.835
+ground_truth,What are the re-energization steps after lockout tagout maintenance?,HIGH or PARTIAL,HIGH,True,0.8391
+ground_truth,What must employees do when they see equipment with a lockout device applied?,HIGH or PARTIAL,HIGH,True,0.8545
+ground_truth,What are OSHA requirements for electrical equipment in wet or damp locations?,HIGH or PARTIAL,PARTIAL,True,0.6764
+ground_truth,What are the clearance requirements for working near energized electrical parts?,HIGH or PARTIAL,PARTIAL,True,0.7882
+ground_truth,What does OSHA 1910.303 require for guarding of live electrical parts?,HIGH or PARTIAL,PARTIAL,True,0.7249
+ground_truth,What OSHA standard covers control of hazardous energy during maintenance?,HIGH or PARTIAL,HIGH,True,0.8648
+ground_truth,What documentation is required for an energy control program?,HIGH or PARTIAL,PARTIAL,True,0.7563
+ground_truth,How often must employers audit their lockout tagout program?,HIGH or PARTIAL,HIGH,True,0.8824
+ground_truth,What are the responsibilities of affected employees under lockout tagout?,HIGH or PARTIAL,HIGH,True,0.8708
+ground_truth,What must employers provide before employees perform lockout tagout?,HIGH or PARTIAL,HIGH,True,0.8734
+ground_truth,What must be included in lockout tagout certification records?,HIGH or PARTIAL,PARTIAL,True,0.7007
+ground_truth,What is the airflow rating for the Carrier 48LC rooftop unit?,HIGH or PARTIAL,PARTIAL,True,0.7528
+ground_truth,What refrigerant does the Carrier 48LC rooftop unit use?,HIGH or PARTIAL,PARTIAL,True,0.7869
+ground_truth,What are the electrical supply requirements for the Carrier 48LC?,HIGH or PARTIAL,PARTIAL,True,0.6176
+ground_truth,What are the annual maintenance items for the Carrier 48LC rooftop unit?,HIGH or PARTIAL,PARTIAL,True,0.6582
+ground_truth,What filter type and size does the Carrier 48LC use?,HIGH or PARTIAL,PARTIAL,True,0.5409
+ground_truth,What installation clearances are required for the Carrier 48LC rooftop unit?,HIGH or PARTIAL,PARTIAL,True,0.608
+ground_truth,What are the operating weight and dimensions of the Carrier 48LC?,HIGH or PARTIAL,PARTIAL,True,0.5738
+ground_truth,What are the cooling capacity specifications for the Carrier 48LC?,HIGH or PARTIAL,PARTIAL,True,0.765
+ground_truth,What are the installation requirements for the Trane XR15 heat pump?,HIGH or PARTIAL,LOW,False,0.4816
+ground_truth,What refrigerant does the Trane XR15 heat pump use?,HIGH or PARTIAL,PARTIAL,True,0.6403
+ground_truth,What is the heating efficiency rating of the Trane XR15?,HIGH or PARTIAL,PARTIAL,True,0.7454
+ground_truth,What are the electrical requirements for the Trane XR15?,HIGH or PARTIAL,PARTIAL,True,0.5489
+ground_truth,What is the SEER rating for the Trane XR15?,HIGH or PARTIAL,LOW,False,0.4222
+ground_truth,What are the service access requirements for the Lennox SL280 furnace?,HIGH or PARTIAL,PARTIAL,True,0.7068
+ground_truth,What is the gas pressure specification for the Lennox SL280 furnace?,HIGH or PARTIAL,HIGH,True,0.8086
+ground_truth,What are the venting requirements for the Lennox SL280 furnace?,HIGH or PARTIAL,HIGH,True,0.814
+ground_truth,What electrical supply is required for the Lennox SL280?,HIGH or PARTIAL,LOW,False,0.4934
+ground_truth,What are the airflow requirements for the Lennox SL280 furnace?,HIGH or PARTIAL,PARTIAL,True,0.7464
+ground_truth,What electrical safety hazards must be guarded against per OSHA 1910.303?,HIGH or PARTIAL,PARTIAL,True,0.7027
+ground_truth,What are the OSHA requirements for electrical panel working space?,HIGH or PARTIAL,PARTIAL,True,0.7751
+ground_truth,What safety controls must be in place before electrical maintenance begins?,HIGH or PARTIAL,PARTIAL,True,0.696
+ground_truth,What are OSHA requirements for training workers on electrical hazards?,HIGH or PARTIAL,HIGH,True,0.7916
+ground_truth,What electrical hazards does OSHA 1910.303 cover for maintenance workers?,HIGH or PARTIAL,HIGH,True,0.8205
+ground_truth,What is the purpose of periodic inspections under OSHA 1910.147?,HIGH or PARTIAL,PARTIAL,True,0.6302
+ground_truth,What preventive maintenance tasks are typical for HVAC rooftop units?,HIGH or PARTIAL,PARTIAL,True,0.5284
+ground_truth,What are common refrigerant-related checks during HVAC preventive maintenance?,HIGH or PARTIAL,PARTIAL,True,0.643
+ground_truth,What compliance steps are documented for HVAC lockout tagout during maintenance?,HIGH or PARTIAL,HIGH,True,0.7992
+ground_truth,What parts are commonly replaced during HVAC furnace preventive maintenance?,HIGH or PARTIAL,PARTIAL,True,0.5882
+ground_truth,What fault codes or anomalies are commonly flagged on HVAC equipment during service?,HIGH or PARTIAL,PARTIAL,True,0.6398
+ground_truth,What are the general electrical installation requirements per OSHA 1910.303?,HIGH or PARTIAL,PARTIAL,True,0.6983
+adversarial,What are the repair procedures for a Daikin VRV system model DX300?,LOW,LOW,True,0.3095
+adversarial,What is the warranty on a Mitsubishi Mr. Slim unit installed in 2022?,LOW,LOW,True,0.4181
+adversarial,What is the refrigerant charge for a Rheem RA20 central air conditioner?,LOW,PARTIAL,False,0.5638
+adversarial,What are the fault codes for a Goodman GSXC18 heat pump?,LOW,PARTIAL,False,0.657
+adversarial,What is the maintenance schedule for a Bosch inverter heat pump?,LOW,LOW,True,0.4355
+adversarial,What are the commissioning steps for a Fujitsu mini-split system?,LOW,LOW,True,0.2143
+adversarial,What refrigerant does the American Standard Gold Series heat pump use?,LOW,PARTIAL,False,0.567
+adversarial,What parts were replaced on job ID JOB-9999?,LOW,LOW,True,0.4092
+adversarial,What are the installation instructions for a Lennox XC25 variable speed air conditioner?,LOW,PARTIAL,False,0.7323
+adversarial,What is the compressor replacement procedure for a Carrier Infinity 24 system?,LOW,PARTIAL,False,0.6608
+adversarial,How do I apply for a building permit for HVAC replacement in Chicago?,LOW,LOW,True,0.359
+adversarial,What is the federal tax credit for installing an energy-efficient heat pump in 2025?,LOW,LOW,True,0.2865
+adversarial,What are the R-22 refrigerant handling regulations after 2020?,LOW,PARTIAL,False,0.7719
+adversarial,Who was the technician assigned to site SITE-FAKE-99 on 2024-11-01?,LOW,LOW,True,0.2229
+adversarial,What is the refrigerant charge for a Trane XR13 system?,LOW,PARTIAL,False,0.5786
+adversarial,What compressor oil does a Carrier 50XC rooftop unit require?,LOW,PARTIAL,False,0.6377
+adversarial,What are the OSHA requirements for confined space entry in HVAC work?,LOW,PARTIAL,False,0.7617
+adversarial,What is the gas valve replacement procedure for a York YZV model?,LOW,LOW,True,0.4973
+adversarial,What are the wiring diagrams for a Lennox Signature Series XC21?,LOW,PARTIAL,False,0.6901
+adversarial,What is the EPA VRF system certification requirement for technicians?,LOW,PARTIAL,False,0.6373
+contradictions,What are the electrical safety requirements during HVAC equipment maintenance?,PARTIAL,PARTIAL,True,0.6656
+contradictions,What is the recommended refrigerant charge pressure for a Carrier rooftop unit?,PARTIAL,PARTIAL,True,0.5157
+contradictions,What are the steps to safely shut down HVAC equipment for repair?,PARTIAL,PARTIAL,True,0.6591
+contradictions,What charging pressures apply for the Carrier 48LC refrigerant system?,PARTIAL,PARTIAL,True,0.6592
+contradictions,What safety precautions are required before opening the electrical panel on an HVAC unit?,PARTIAL,PARTIAL,True,0.631
+contradictions,What are the Carrier 48LC filter replacement intervals in the 2017 versus 2023 manual?,PARTIAL,LOW,False,0.4843
+contradictions,What does the service manual say about refrigerant recovery before HVAC maintenance?,PARTIAL,PARTIAL,True,0.5936
+contradictions,What are the wiring and electrical connection requirements for installing a Carrier 48LC?,PARTIAL,PARTIAL,True,0.5331
+contradictions,What are the airflow and static pressure settings for the Carrier 48LC in cooling mode?,PARTIAL,PARTIAL,True,0.7814
+contradictions,What procedures should a technician follow when HVAC equipment has a refrigerant leak?,PARTIAL,PARTIAL,True,0.6668
+contradictions,What are the differences in maintenance requirements between the 2017 and 2023 Carrier 48LC?,PARTIAL,LOW,False,0.4787
+contradictions,What does OSHA say about re-energizing equipment after maintenance versus what the manufacturer recommends?,PARTIAL,PARTIAL,True,0.623
+contradictions,What are the Carrier 48LC heating specifications and capacity ratings?,PARTIAL,PARTIAL,True,0.7979
+contradictions,What refrigerant pressure readings should a technician expect during normal Carrier RTU operation?,PARTIAL,PARTIAL,True,0.6219
+contradictions,What inspection items are required annually for the Carrier 48LC rooftop unit?,PARTIAL,PARTIAL,True,0.6526

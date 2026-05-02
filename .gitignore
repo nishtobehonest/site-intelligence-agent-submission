@@ -1,0 +1,31 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Processed data (rebuild from raw)
+data/processed/
+
+# VS Code
+.vscode/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Build artifacts
+.pytest_cache/

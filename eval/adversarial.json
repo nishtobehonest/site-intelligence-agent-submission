@@ -1,0 +1,22 @@
+[
+  {"query": "What are the repair procedures for a Daikin VRV system model DX300?", "note": "Daikin VRV not in corpus. Should escalate LOW."},
+  {"query": "What is the warranty on a Mitsubishi Mr. Slim unit installed in 2022?", "note": "Mitsubishi equipment not in corpus. Should escalate LOW."},
+  {"query": "What is the refrigerant charge for a Rheem RA20 central air conditioner?", "note": "Rheem not in corpus. Should escalate LOW."},
+  {"query": "What are the fault codes for a Goodman GSXC18 heat pump?", "note": "Goodman not in corpus. Should escalate LOW."},
+  {"query": "What is the maintenance schedule for a Bosch inverter heat pump?", "note": "Bosch heat pump not in corpus. Should escalate LOW."},
+  {"query": "What are the commissioning steps for a Fujitsu mini-split system?", "note": "Fujitsu not in corpus. Should escalate LOW."},
+  {"query": "What refrigerant does the American Standard Gold Series heat pump use?", "note": "American Standard not in corpus. Should escalate LOW."},
+  {"query": "What parts were replaced on job ID JOB-9999?", "note": "JOB-9999 does not exist in synthetic job history. Should escalate LOW."},
+  {"query": "What are the installation instructions for a Lennox XC25 variable speed air conditioner?", "note": "Lennox XC25 not in corpus, only SL280. Should escalate LOW."},
+  {"query": "What is the compressor replacement procedure for a Carrier Infinity 24 system?", "note": "Carrier Infinity 24 not in corpus, only 48LC. Should escalate LOW."},
+  {"query": "How do I apply for a building permit for HVAC replacement in Chicago?", "note": "Permit processes not in corpus. Should escalate LOW."},
+  {"query": "What is the federal tax credit for installing an energy-efficient heat pump in 2025?", "note": "Tax credits not in corpus. Should escalate LOW."},
+  {"query": "What are the R-22 refrigerant handling regulations after 2020?", "note": "R-22 phase-out regulations not in corpus. Should escalate LOW."},
+  {"query": "Who was the technician assigned to site SITE-FAKE-99 on 2024-11-01?", "note": "Fabricated site and date not in job history. Should escalate LOW."},
+  {"query": "What is the refrigerant charge for a Trane XR13 system?", "note": "Trane XR13 not in corpus, only XR15. Should escalate LOW."},
+  {"query": "What compressor oil does a Carrier 50XC rooftop unit require?", "note": "Carrier 50XC not in corpus, only 48LC. Should escalate LOW."},
+  {"query": "What are the OSHA requirements for confined space entry in HVAC work?", "note": "1910.146 (confined space) not in corpus, only 1910.147 and 1910.303. Should escalate LOW."},
+  {"query": "What is the gas valve replacement procedure for a York YZV model?", "note": "York not in corpus despite appearing in job history equipment types as synthetic data. Should escalate LOW."},
+  {"query": "What are the wiring diagrams for a Lennox Signature Series XC21?", "note": "Lennox XC21 not in corpus. Should escalate LOW."},
+  {"query": "What is the EPA VRF system certification requirement for technicians?", "note": "EPA VRF certification not in corpus. Should escalate LOW."}
+]

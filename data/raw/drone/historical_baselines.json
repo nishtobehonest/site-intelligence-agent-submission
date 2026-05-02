@@ -1,0 +1,252 @@
+[
+  {
+    "baseline_id": "BASE-ZoneA-ROOFTOPHVAC-01",
+    "zone_id": "Zone-A",
+    "equipment_type": "rooftop-hvac",
+    "normal_temperature_range": "68-82\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "Zone-A's rooftop-hvac typically operates with clean condenser coils, intact insulation, and no visible leaks; sensor readings consistently show supply air temperature within 2\u00b0C of setpoint, stable fan motor amperage (e.g., 25-30A), and vibration levels below 0.4 G RMS. The unit undergoes quarterly visual checks, semi-annual filter replacements, and a full annual service, with the last major service performed six months ago, including coil cleaning and refrigerant level verification. Historically, anomaly frequency is low, with typical patterns involving minor condensate drain blockages or superficial debris accumulation, rather than critical component failures. Escalation above baseline is triggered by deviations such as supply air temperature consistently exceeding 5\u00b0C off setpoint, amperage spikes above 20% of nominal, a sustained 1.5x increase in baseline vibration for critical components, or any visible refrigerant leakage or significant structural damage.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneA-STRUCTURALPANEL-02",
+    "zone_id": "Zone-A",
+    "equipment_type": "structural-panel",
+    "normal_temperature_range": "60-95\u00b0F",
+    "typical_anomaly_rate": "0-2 per year",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "Under normal operation, Zone-A structural-panels consistently present an intact, uniform surface with no significant visual defects such as cracks, buckling, or delamination, and thermal imaging typically registers stable ambient temperature profiles. Routine visual and thermal inspections are scheduled bi-annually, with the last comprehensive coating integrity and fastener torque check performed 14 months prior. Historical records indicate a low anomaly frequency, primarily limited to minor surface discoloration or localized paint chipping near bolted connections, which have shown no progression over multiple inspection cycles. Any observation of through-thickness cracking, panel deformation exceeding 2mm, or thermal anomalies diverging by more than 5\u00b0C from ambient would immediately trigger an alert and require further engineering assessment beyond this baseline.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneA-DRAINAGESYSTEM-03",
+    "zone_id": "Zone-A",
+    "equipment_type": "drainage-system",
+    "normal_temperature_range": "55-80\u00b0F",
+    "typical_anomaly_rate": "1-2 per year",
+    "last_major_maintenance": "2025-01-10",
+    "baseline_notes": "Under normal operation, the Zone-A drainage system consistently maintains flow rates between 5-10 L/s, with clear channels, no visible debris, and dry exterior surfaces, confirmed by ambient thermal and moisture sensor readings. Scheduled maintenance includes quarterly visual inspections and annual descaling/flushing, with the last major service completed in June 2023. Historically, the system experiences 1-2 minor anomalies annually, typically minor silt accumulation or small debris, which are self-correcting or addressed during routine checks. Escalation is triggered by flow rates sustained below 3 L/s, visible structural defects like cracks exceeding 2mm, or blockages obstructing over 25% of the channel.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneA-ELECTRICALCONDUIT-04",
+    "zone_id": "Zone-A",
+    "equipment_type": "electrical-conduit",
+    "normal_temperature_range": "65-90\u00b0F",
+    "typical_anomaly_rate": "0-1 per year",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Under normal operation, Zone-A electrical conduit typically presents with uniform thermal profiles (max ambient +5\u00b0C), visually intact sheathing, and secure mounting brackets free from corrosion or physical impact damage. Routine visual and thermal inspections are conducted quarterly as part of the Zone-A infrastructure check, with the last comprehensive service and fastener torque check performed on 2023-11-15. Historically, anomalies are infrequent, averaging one minor finding (e.g., superficial paint scratch or slight dust accumulation) every 18 months, with no patterns indicating systemic degradation or electrical issues. Any detection of localized hot spots exceeding ambient +10\u00b0C, visible cracking, significant corrosion (pitting greater than 1mm deep), or compromised structural integrity (e.g., loose or missing hangers) would immediately trigger a priority escalation for further human inspection.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneA-SOLARARRAY-05",
+    "zone_id": "Zone-A",
+    "equipment_type": "solar-array",
+    "normal_temperature_range": "70-110\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-06-15",
+    "baseline_notes": "Under normal operation, the Zone-A solar array consistently produces 95-100% of its nameplate capacity, with module surface temperatures typically between 30-60\u00b0C and panels appearing visually clean and free from damage or significant soiling. Routine bi-annual cleaning and quarterly electrical checks are standard, with the last major service completed on 2023-10-15; historical anomaly frequency is low, averaging less than one minor soiling or micro-crack event per year. Escalation above baseline would be triggered by a sustained power output drop exceeding 10% from expected, module temperatures above 80\u00b0C, or visible indications of hot spots, delamination, or structural damage.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneB-ROOFTOPHVAC-06",
+    "zone_id": "Zone-B",
+    "equipment_type": "rooftop-hvac",
+    "normal_temperature_range": "68-82\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Under normal operation, Zone-B's rooftop HVAC typically exhibits clear coil fins and free-spinning fan blades, uniform thermal profiles (ambient to 35\u00b0C, motors 55-65\u00b0C), and a consistent acoustic hum without grinding or excessive vibration. The unit adheres to a bi-annual deep cleaning and filter replacement schedule, with its last major service completed in April 2023. Historically, anomalies are infrequent, mainly minor debris accumulation or slight motor temperature increases (up to 70\u00b0C) during peak summer, typically resolved during routine maintenance. Escalation above baseline is triggered by critical thermal deviations (e.g., motor temperatures >75\u00b0C, coil delta T >8\u00b0C), persistent abnormal acoustic signatures, visible refrigerant leaks, or structural integrity concerns such as heavy corrosion or damaged fan components.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneB-STRUCTURALPANEL-07",
+    "zone_id": "Zone-B",
+    "equipment_type": "structural-panel",
+    "normal_temperature_range": "60-95\u00b0F",
+    "typical_anomaly_rate": "0-2 per year",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "The structural panel in Zone-B typically presents with uniform surface integrity, no visible cracks, corrosion, or deformation, maintaining ambient thermal profiles with minimal vibration, indicating sound structural health. Routine maintenance involves biannual visual inspections and annual NDT, with the last full NDT performed six months prior, all indicating normal wear. Historically, this panel exhibits a very low anomaly frequency, limited to isolated minor surface corrosion near fasteners treated during routine checks every 2-3 years. Any detected through-thickness corrosion, visible cracking of any size, significant surface deformation exceeding 2mm, or thermal anomalies greater than 5\u00b0C from ambient would immediately trigger an escalated alert for urgent manual inspection and structural engineering review.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneB-DRAINAGESYSTEM-08",
+    "zone_id": "Zone-B",
+    "equipment_type": "drainage-system",
+    "normal_temperature_range": "55-80\u00b0F",
+    "typical_anomaly_rate": "1-2 per year",
+    "last_major_maintenance": "2024-06-15",
+    "baseline_notes": "Zone-B drainage system typically presents with clear, unimpeded flow, minimal sediment accumulation, and intact channel surfaces, with thermal readings consistent with ambient temperatures. Routine visual inspections are conducted quarterly, and the last full system cleanout and localized pipe relining occurred approximately six months ago. Historical data indicates a low anomaly frequency, averaging one to two minor partial blockages per year, usually correlated with heavy rainfall events or minor root intrusion near older sections. Escalation above baseline is triggered by persistent standing water, visible debris obstructing >20% of the channel cross-section, detected structural cracks exceeding 3mm, or localized thermal anomalies >5\u00b0C above typical flow temperatures.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneB-ELECTRICALCONDUIT-09",
+    "zone_id": "Zone-B",
+    "equipment_type": "electrical-conduit",
+    "normal_temperature_range": "65-90\u00b0F",
+    "typical_anomaly_rate": "0-1 per year",
+    "last_major_maintenance": "2025-04-01",
+    "baseline_notes": "Under normal operation, Zone-B electrical conduits consistently exhibit thermographic readings within 2\u00b0C of ambient, with visual inspections confirming secure fastening, no significant corrosion, cracks, or discoloration. Routine visual and thermal inspections are performed bi-annually as part of the broader electrical system audit; the last major re-securing and sealing service for this zone was completed 14 months ago. Historical data indicates a low anomaly frequency, typically minor issues like superficial surface corrosion in damp pockets or isolated loose clamps, with no recorded thermal hotspots or structural integrity breaches in the last five years. Any thermographic deviation exceeding 5\u00b0C above ambient, detection of structural compromise (cracks, severe deformation), or significant localized corrosion will immediately trigger a Level 2 escalation for human investigation.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneB-SOLARARRAY-10",
+    "zone_id": "Zone-B",
+    "equipment_type": "solar-array",
+    "normal_temperature_range": "70-110\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2025-04-01",
+    "baseline_notes": "Zone-B's solar array typically presents with clean, intact panels, exhibiting uniform thermal signatures generally within 15\u00b0C above ambient during peak operation, and no significant visual degradation such as cracks or severe delamination. Routine drone inspections are performed quarterly, with the last major service, including inverter diagnostics and a comprehensive thermal and electrical performance check, completed six months ago. Historically, anomalies are infrequent, primarily consisting of minor dust accumulation, localized bird droppings, or very rare isolated micro-cracks, rarely impacting more than 0.5% of modules per inspection. Anomaly escalation is triggered by any module exhibiting a sustained thermal differential exceeding 15\u00b0C compared to adjacent units, visible damage impacting more than 1cm of a panel, or widespread soiling visibly affecting over 5% of the array's surface area.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneC-ROOFTOPHVAC-11",
+    "zone_id": "Zone-C",
+    "equipment_type": "rooftop-hvac",
+    "normal_temperature_range": "68-82\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-06-15",
+    "baseline_notes": "Normal operation for this rooftop-hvac unit typically shows fan motor temperatures between 50-70\u00b0C and vibration below 0.5g RMS, with clear airflow and coils exhibiting only light dust accumulation and no visible obstructions or leaks. The last major service, including compressor and refrigerant checks, was completed 2023-11-15, adhering to the annual overhaul schedule with quarterly filter replacements and coil cleanings performed as expected. Historically, minor anomalies occur 1-2 times per year, primarily consisting of clogged air filters or slight refrigerant pressure drops, which typically manifest as gradual performance degradation rather than sudden failures. Escalation above baseline is triggered by critical thresholds such as motor temperatures consistently exceeding 90\u00b0C, vibration readings above 2g RMS, a sustained 20% reduction in airflow, or any visible fluid leaks or structural compromises.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneC-STRUCTURALPANEL-12",
+    "zone_id": "Zone-C",
+    "equipment_type": "structural-panel",
+    "normal_temperature_range": "60-95\u00b0F",
+    "typical_anomaly_rate": "0-2 per year",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Under normal operation, structural panels in Zone-C typically exhibit uniform thermal profiles (avg 25\u00b0C \u00b1 2\u00b0C) with no visual deformation, cracks, or widespread surface degradation, and consistent nominal ultrasonic thickness. These panels are scheduled for detailed visual and NDT inspection every 3 years, with the last major integrity check and protective coating refresh completed in Q2 2022. Historical anomaly frequency is low, primarily limited to isolated minor surface scuffs or localized paint blistering, typically addressed during routine visual checks. Escalation above baseline is triggered by any through-cracks, deformation exceeding 5mm, significant localized thermal differentials (>5\u00b0C), missing fasteners, or widespread corrosion impacting more than 5% of a panel's surface.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneC-DRAINAGESYSTEM-13",
+    "zone_id": "Zone-C",
+    "equipment_type": "drainage-system",
+    "normal_temperature_range": "55-80\u00b0F",
+    "typical_anomaly_rate": "1-2 per year",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "Typically, flow sensors report stable rates between 15-25 GPM with water levels below 10% capacity, and visual inspections reveal clear pipes with minimal sediment or corrosion. Routine cleaning and inspection are scheduled bi-annually; the last comprehensive hydro-jetting and structural integrity check was performed on 2023-10-15. Historically, minor partial blockages occur an average of once every 18 months, often linked to heavy rain events or leaf accumulation, typically resolved with localized flushing. Any sustained flow reduction exceeding 25%, water levels consistently above 30% capacity, or evidence of structural breach or significant blockage will trigger an immediate Level 2 escalation for deeper investigation.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneC-ELECTRICALCONDUIT-14",
+    "zone_id": "Zone-C",
+    "equipment_type": "electrical-conduit",
+    "normal_temperature_range": "65-90\u00b0F",
+    "typical_anomaly_rate": "0-1 per year",
+    "last_major_maintenance": "2025-01-10",
+    "baseline_notes": "Typically, Zone-C electrical conduits present with consistent ambient temperatures (within 2\u00b0C) via thermal imaging, visually exhibiting intact insulation, secure mounting, and only minor, expected surface dust or occasional superficial scuffs. No signs of corrosion, sagging, or exposed wiring are normally observed. Routine visual inspections are scheduled biannually, with a comprehensive structural integrity and thermal scan every 18 months; the last major electrical system overhaul, including conduit integrity checks, occurred 14 months ago. Historically, anomaly frequency for this conduit run is low, with the most common issues being slight loosening of isolated mounting clips (observed 1-2 times per year) and minor surface abrasion in high-traffic sub-zones, never compromising electrical integrity. Escalation above baseline is triggered by any thermal anomaly exceeding 5\u00b0C above ambient, evidence of structural compromise (e.g., cracking, severe corrosion, dislodgement from mounting), or any visible exposure of internal wiring.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneC-SOLARARRAY-15",
+    "zone_id": "Zone-C",
+    "equipment_type": "solar-array",
+    "normal_temperature_range": "70-110\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2025-04-01",
+    "baseline_notes": "Under normal conditions, Zone-C solar array typically exhibits uniform panel temperatures between 35-55\u00b0C, stable DC output within 95-100% of rated capacity, and visually clean panels with no observable physical damage or soiling exceeding 5% surface area. The array undergoes bi-annual cleaning and quarterly inverter/wiring inspections, with the last major service (full string voltage validation and panel clean) completed 3 months prior. Historically, anomalies are infrequent, occurring approximately twice a year, primarily manifested as isolated hotspots on individual cells (max 0.5% of panels) or minor soiling patches after prolonged dry spells. Escalation above baseline is triggered by any panel temperature exceeding 70\u00b0C, a string power output degradation greater than 5% from historical averages, visible micro-cracks affecting more than 0.1% of modules, or any observable physical damage to mounting structures or cabling.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneD-ROOFTOPHVAC-16",
+    "zone_id": "Zone-D",
+    "equipment_type": "rooftop-hvac",
+    "normal_temperature_range": "68-82\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Typically, Zone-D's rooftop HVAC units exhibit stable thermal profiles with condenser coils operating at 25-40\u00b0C above ambient during active cooling, clear airflow from fan units, and visually intact insulation and conduit, with no signs of active leaks or significant corrosion. Scheduled preventive maintenance, including filter changes and coil cleaning, occurs biannually, with the last major service completed in March 2023. Historically, anomaly frequency is low, with patterns primarily limited to minor debris accumulation near intakes (occurring in ~10% of inspections) or occasional slight thermal variations during high-load periods. Escalation is triggered by persistent thermal hotspots exceeding 15\u00b0C above expected operational norms, visible refrigerant or oil leaks, significant fan bearing noise/vibration, or structural damage to unit housing.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneD-STRUCTURALPANEL-17",
+    "zone_id": "Zone-D",
+    "equipment_type": "structural-panel",
+    "normal_temperature_range": "60-95\u00b0F",
+    "typical_anomaly_rate": "0-2 per year",
+    "last_major_maintenance": "2025-04-01",
+    "baseline_notes": "This structural panel in Zone-D typically presents with uniform surface integrity, no visual deformation, and thermal readings consistent with ambient conditions, as confirmed by photogrammetry and IR scans. It undergoes annual visual and thermal inspections, with a detailed structural scan every five years; the last major service was 24 months ago, involving coating integrity checks. Historically, anomaly frequency for this panel type in Zone-D is very low, usually limited to minor surface discoloration or abrasion requiring no structural intervention, with no recorded historical crack propagation. Escalation above baseline would be triggered by any detected crack initiation exceeding 0.5mm, surface delamination greater than 5cm\u00b2, or a localized thermal anomaly exceeding 3\u00b0C compared to adjacent areas.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneD-DRAINAGESYSTEM-18",
+    "zone_id": "Zone-D",
+    "equipment_type": "drainage-system",
+    "normal_temperature_range": "55-80\u00b0F",
+    "typical_anomaly_rate": "1-2 per year",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "Normally, Zone-D's drainage system exhibits unimpeded flow with visual confirmation of clear channels, no pooling, and minimal debris accumulation; flow sensors typically register within 150-200 L/min during non-precipitation periods. Routine inspections and preventative cleaning are scheduled quarterly, with the last comprehensive descaling and structural integrity check completed approximately 8 months ago. Historically, anomalies are infrequent, usually minor partial blockages caused by seasonal leaf litter accumulation, typically resolving with routine cleaning; however, a sustained flow rate drop below 100 L/min, visible structural damage, or persistent surface pooling would trigger an immediate escalation for deeper investigation.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneD-ELECTRICALCONDUIT-19",
+    "zone_id": "Zone-D",
+    "equipment_type": "electrical-conduit",
+    "normal_temperature_range": "65-90\u00b0F",
+    "typical_anomaly_rate": "0-1 per year",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Zone-D electrical conduit normally presents a stable thermal signature, registering within 2-3\u00b0C of ambient, with all sections visually appearing free of corrosion, abrasion, or physical damage. Mountings are consistently secure, and insulation sheathing remains intact. Routine visual and thermal inspections are conducted biennially as part of the broader Zone-D electrical system health check; the last significant service, which included structural integrity checks and re-torquing of connections, was completed 18 months prior. Historical records indicate a low anomaly frequency for this conduit, predominantly superficial wear such as minor paint scuffs or dust accumulation, occurring in less than 5% of past inspection cycles. Escalation beyond baseline is triggered by any thermal deviation exceeding 5\u00b0C above adjacent sections, visible compromise to conduit integrity or insulation, or evidence of arcing or loose connections.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneD-SOLARARRAY-20",
+    "zone_id": "Zone-D",
+    "equipment_type": "solar-array",
+    "normal_temperature_range": "70-110\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "The Zone-D solar array typically displays uniform thermal profiles with panel temperatures within 2\u00b0C of adjacent modules, and visually, all surfaces are intact and clear with minimal dust or debris. Regular aerial inspections and cleaning are performed bi-annually, with a comprehensive structural and electrical integrity service scheduled every three years; the last major service was completed in Q3 2022. Historically, anomalies are infrequent, generally comprising isolated minor hot spots (<5\u00b0C differential) or localized dust buildup, with no recurring patterns of widespread degradation. Escalation above baseline is triggered by any panel hot spot exceeding 10\u00b0C differential, visible delamination greater than 5cm\u00b2, structural deformation, or an observed power output degradation exceeding 5% for any string post-cleaning.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneE-ROOFTOPHVAC-21",
+    "zone_id": "Zone-E",
+    "equipment_type": "rooftop-hvac",
+    "normal_temperature_range": "68-82\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Typical operational readings for the Zone-E rooftop HVAC unit include fan motor temperatures consistently within 60-70\u00b0C, negligible vibration (<0.5 G), and clean evaporator/condenser coils with minimal dust. Visually, the housing shows expected minor surface oxidation but no significant panel deformation or structural compromise. Scheduled for bi-annual preventative maintenance, the last major service, which included refrigerant level verification and belt tensioning, was performed six months ago in May 2023. Historically, anomaly frequency is low, with patterns typically limited to minor condensate pan blockages or occasional increased fan motor vibration, usually resolved during routine maintenance cycles. Escalation above baseline is triggered by persistent fan motor temperatures exceeding 85\u00b0C, vibration levels consistently above 2.0 G, visible refrigerant line damage, or significant, rapidly progressing corrosion on critical structural components.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneE-STRUCTURALPANEL-22",
+    "zone_id": "Zone-E",
+    "equipment_type": "structural-panel",
+    "normal_temperature_range": "60-95\u00b0F",
+    "typical_anomaly_rate": "0-2 per year",
+    "last_major_maintenance": "2025-04-01",
+    "baseline_notes": "Visually, structural panels in Zone-E typically present with a smooth, consistent surface free of discoloration or visible cracks, and fasteners are consistently flush; thermal scans show uniform distribution within +/- 2\u00b0C of ambient, and LiDAR indicates less than 0.5mm deviation from baseline. Routine visual inspections are scheduled annually, with a comprehensive NDT and coating integrity check every five years; the last major service was a full panel coating inspection and fastener torque check on 2023-01-15. Historical anomaly frequency is very low, generally limited to minor localized surface pitting or slight coating degradation occurring approximately every 3-5 years, often near panel edges or seams. Escalation above baseline is triggered by any visible crack, buckling, missing fasteners, a thermal anomaly exceeding a 5\u00b0C differential, or a structural deviation greater than 2mm identified via photogrammetry or LiDAR.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneE-DRAINAGESYSTEM-23",
+    "zone_id": "Zone-E",
+    "equipment_type": "drainage-system",
+    "normal_temperature_range": "55-80\u00b0F",
+    "typical_anomaly_rate": "1-2 per year",
+    "last_major_maintenance": "2025-01-10",
+    "baseline_notes": "Under normal operation, Zone-E drainage systems typically show clear flow paths with minimal sediment, uniform thermal profiles, and intact grates, indicating efficient function. Routine maintenance includes quarterly debris removal and bi-annual high-pressure jetting, with the last comprehensive service on 2023-08-15. Historically, minor seasonal blockages, mostly leaf-related post-autumn, are common but typically self-resolve within 24 hours. Escalation is triggered by a persistent 20% reduction in observed flow, visible structural damage exceeding 5mm, or persistent standing water lasting over 12 hours after rainfall ceases.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneE-ELECTRICALCONDUIT-24",
+    "zone_id": "Zone-E",
+    "equipment_type": "electrical-conduit",
+    "normal_temperature_range": "65-90\u00b0F",
+    "typical_anomaly_rate": "0-1 per year",
+    "last_major_maintenance": "2024-03-01",
+    "baseline_notes": "Baseline thermal readings for electrical conduit in Zone-E consistently show surface temperatures within 3\u00b0C of ambient, indicating no hotspots, with visual inspections confirming secure mounting, intact external sheathing, and no visible corrosion or abrasion. Routine maintenance involves annual visual integrity checks, with a full external mounting and junction inspection every two years; the last comprehensive service was completed 14 months ago. Historical anomaly frequency is very low, typically less than 0.5% of scans, primarily involving minor superficial scuffs or slightly loose clamp attachments. Any thermal deviation exceeding 5\u00b0C above ambient or adjacent conduits, evidence of compromised sheathing, exposed wiring, or significant physical damage will trigger an immediate L2 escalation.",
+    "established_date": "2024-06-01"
+  },
+  {
+    "baseline_id": "BASE-ZoneE-SOLARARRAY-25",
+    "zone_id": "Zone-E",
+    "equipment_type": "solar-array",
+    "normal_temperature_range": "70-110\u00b0F",
+    "typical_anomaly_rate": "0-1 per quarter",
+    "last_major_maintenance": "2024-09-01",
+    "baseline_notes": "Under normal operation, panels exhibit uniform surface temperatures averaging 25-35\u00b0C with less than 2\u00b0C inter-panel variation, and visually present as clean, intact, and free of physical damage or significant soiling. Routine maintenance, including panel cleaning and inverter performance checks, is scheduled bi-annually; the last major service was completed on 2023-11-15, focusing on wiring integrity and mounting stability. Historical data indicates a low anomaly frequency (avg. 1-2 minor findings per quarter), primarily consisting of isolated module soiling, infrequent bird droppings, or very minor edge delamination, all typically resolved during routine cleaning cycles. Escalation above baseline is triggered by thermal deviations exceeding 5\u00b0C on any single panel or cluster, evidence of widespread micro-cracks or delamination, significant module discoloration, or any visible wiring damage indicating potential arcing or imminent failure.",
+    "established_date": "2024-06-01"
+  }
+]

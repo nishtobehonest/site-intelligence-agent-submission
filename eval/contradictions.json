@@ -1,0 +1,17 @@
+[
+  {"query": "What are the electrical safety requirements during HVAC equipment maintenance?", "note": "OSHA 1910.303 and HVAC manuals both address electrical safety during maintenance — cross-collection conflict expected."},
+  {"query": "What is the recommended refrigerant charge pressure for a Carrier rooftop unit?", "note": "Different Carrier manual versions (2017 vs 2023) may list different pressures. Conflict between manual versions."},
+  {"query": "What are the steps to safely shut down HVAC equipment for repair?", "note": "Job history records and manuals both describe shutdown procedures — cross-collection conflict expected."},
+  {"query": "What charging pressures apply for the Carrier 48LC refrigerant system?", "note": "Both 2017 and 2023 Carrier 48LC manuals are in corpus and may list different spec values."},
+  {"query": "What safety precautions are required before opening the electrical panel on an HVAC unit?", "note": "OSHA LOTO requirements and manufacturer service instructions both address panel access — potential cross-collection conflict."},
+  {"query": "What are the Carrier 48LC filter replacement intervals in the 2017 versus 2023 manual?", "note": "Directly targets version conflict between two Carrier 48LC manual editions in the corpus."},
+  {"query": "What does the service manual say about refrigerant recovery before HVAC maintenance?", "note": "Manuals and OSHA documents both address refrigerant handling — cross-collection conflict expected."},
+  {"query": "What are the wiring and electrical connection requirements for installing a Carrier 48LC?", "note": "Both 2017 and 2023 Carrier 48LC installation sections may differ on electrical specs."},
+  {"query": "What are the airflow and static pressure settings for the Carrier 48LC in cooling mode?", "note": "Both Carrier 48LC manual versions present in corpus; spec values may differ between editions."},
+  {"query": "What procedures should a technician follow when HVAC equipment has a refrigerant leak?", "note": "Job history records and OSHA/manuals both describe leak response procedures — cross-collection conflict expected."},
+  {"query": "What are the differences in maintenance requirements between the 2017 and 2023 Carrier 48LC?", "note": "Directly queries version conflict between two editions of the same manual in the corpus."},
+  {"query": "What does OSHA say about re-energizing equipment after maintenance versus what the manufacturer recommends?", "note": "OSHA 1910.147 and equipment manuals both address re-energization — procedural conflict between sources."},
+  {"query": "What are the Carrier 48LC heating specifications and capacity ratings?", "note": "Both 2017 and 2023 editions are in corpus; capacity ratings may differ between model years."},
+  {"query": "What refrigerant pressure readings should a technician expect during normal Carrier RTU operation?", "note": "Job history records (actual field readings) and Carrier manuals (spec values) may return conflicting pressure data."},
+  {"query": "What inspection items are required annually for the Carrier 48LC rooftop unit?", "note": "Carrier 48LC manual annual service checklist may differ between 2017 and 2023 editions, plus job history may reflect different practices."}
+]
