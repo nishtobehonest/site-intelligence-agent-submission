@@ -4,6 +4,14 @@
 
 ---
 
+## Course Report
+
+**[ENMGT-AI-Site-Intelligence-Agent-nishchay-vishwanath.pdf](ENMGT-AI-Site-Intelligence-Agent-nishchay-vishwanath.pdf)**
+
+Full written report covering problem framing, system architecture, evaluation methodology, Phase 1 results, and Phase 2 design. Start here for the complete picture.
+
+---
+
 ## What This Is
 
 A RAG-based assistant for frontline field workers (HVAC technicians, drone inspectors, field engineers) that retrieves relevant documentation, past job history, and compliance requirements in real time during a job.
